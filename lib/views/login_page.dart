@@ -55,11 +55,11 @@ class _LoginPageState extends State<LoginPage> {
                     TextField(
                       decoration: InputDecoration(
                           suffixIcon: Icon(
-                            Icons.check,
+                            Icons.email,
                             color: Colors.grey,
                           ),
                           label: Text(
-                            'Username',
+                            'Email',
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
                               color: Color(0xff2A1639),
