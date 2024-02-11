@@ -25,7 +25,10 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
           children: [
             Padding(
               padding: const EdgeInsets.only(top: 118.0),
-              child: Image(image: AssetImage('assets/img/logo.png')),
+              child: Container(
+                width: 200,
+                child: Image(image: AssetImage('assets/img/logo.png')),
+              ),
             ),
             SizedBox(
               height: 100,

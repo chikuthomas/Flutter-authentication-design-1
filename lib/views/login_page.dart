@@ -120,7 +120,7 @@ class _LoginPageState extends State<LoginPage> {
                                 horizontal: 130.0, vertical: 20),
                           ),
                           child: Text(
-                            'SIGN IN',
+                            'Login',
                             style: TextStyle(color: Colors.white),
                           ),
                         ),
